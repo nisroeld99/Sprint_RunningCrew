@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   root 'home#index'
-  get 'home/index'
-  get '/download' => 'home#doc'
+  get "home/index"
+  get "home/doc"
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
