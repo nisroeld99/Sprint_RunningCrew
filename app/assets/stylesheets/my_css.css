@@ -1,3 +1,4 @@
+@CHARST "UTF-8"
 .my-short-margin{
   margin-top: 50px;
 
@@ -10,3 +11,6 @@
 #main-header{
   background-color: #222222;
 }
+
+
+@import url(http://fonts.googleapis.com/earlyaccess/hanna.css);
