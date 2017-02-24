@@ -1,4 +1,5 @@
 @CHARST "UTF-8"
+@import url(http://fonts.googleapis.com/earlyaccess/hanna.css);
 .my-short-margin{
   margin-top: 50px;
 
@@ -12,5 +13,18 @@
   background-color: #222222;
 }
 
+div.img {
+    margin: 5px 0px 5px 0px;
 
-@import url(http://fonts.googleapis.com/earlyaccess/hanna.css);
+    float: left;
+
+}
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
